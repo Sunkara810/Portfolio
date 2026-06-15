@@ -5,24 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sunkara Naga Pavani | Portfolio</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
 <header>
-    <h1>Sunkara Naga Pavani</h1>
-    <p>Computer Science & Engineering (AI) Student</p>
+    <div class="header-content">
+        <h1>Sunkara Naga Pavani</h1>
+        <p>Computer Science & Engineering (Artificial Intelligence)</p>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#internships">Internships</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certificates</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+        <button class="theme-btn" onclick="toggleTheme()">
+            🌙 Theme
+        </button>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <section class="hero">
@@ -34,14 +43,15 @@
     </p>
 </section>
 
+<main>
+
 <section id="about">
     <h2>About Me</h2>
     <p>
         I am pursuing B.Tech in Computer Science and Engineering
         (Artificial Intelligence) at Pragati Engineering College
-        with a CGPA of 9.07.
-        I enjoy learning new technologies, building projects,
-        and solving real-world problems using AI and Web Development.
+        with a CGPA of 9.07. I enjoy learning new technologies,
+        building projects and solving real-world problems.
     </p>
 </section>
 
@@ -50,7 +60,7 @@
 
     <div class="card">
         <h3>Pragati Engineering College</h3>
-        <p>B.Tech - CSE (Artificial Intelligence)</p>
+        <p>B.Tech - Artificial Intelligence</p>
         <p>2023 - 2027 | CGPA: 9.07</p>
     </div>
 
@@ -87,18 +97,12 @@
 
     <div class="card">
         <h3>1M1B - AICTE - Salesforce</h3>
-        <p>
-            Participated in Green Skills workshops focused on
-            technology-driven sustainability solutions.
-        </p>
+        <p>Green Skills Internship Program.</p>
     </div>
 
     <div class="card">
         <h3>Google for Developers - EduSkills</h3>
-        <p>
-            Completed AI & ML Virtual Internship covering machine learning,
-            Python libraries, and model evaluation.
-        </p>
+        <p>AI & ML Virtual Internship.</p>
     </div>
 </section>
 
@@ -112,54 +116,32 @@
         </div>
 
         <p>
-            Developed a responsive weather application using HTML, CSS,
-            and JavaScript that provides real-time weather information.
+            Responsive weather application with real-time weather updates.
         </p>
 
-        <h4>Features</h4>
-        <ul>
-            <li>City-based weather search</li>
-            <li>Real-time weather updates</li>
-            <li>Temperature and humidity display</li>
-            <li>Wind speed information</li>
-            <li>Responsive design</li>
-        </ul>
-
-        <h4>Technologies</h4>
         <div class="tech-stack">
             <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
-            <span>OpenWeather API</span>
+            <span>API</span>
         </div>
     </div>
 
     <div class="project-card">
         <div class="project-header">
-            <h3>🚦 AI Smart Traffic Management System</h3>
+            <h3>🚦 Smart Traffic Management</h3>
             <span class="badge">Artificial Intelligence</span>
         </div>
 
         <p>
-            Designed an AI-powered traffic management system that monitors
-            traffic density and optimizes traffic signals dynamically.
+            AI-based traffic monitoring and signal optimization system.
         </p>
 
-        <h4>Features</h4>
-        <ul>
-            <li>Traffic density monitoring</li>
-            <li>Smart signal optimization</li>
-            <li>Reduced congestion</li>
-            <li>Improved road efficiency</li>
-            <li>AI-based traffic analysis</li>
-        </ul>
-
-        <h4>Technologies</h4>
         <div class="tech-stack">
+            <span>AI</span>
             <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
-            <span>AI Concepts</span>
         </div>
     </div>
 </section>
@@ -169,10 +151,9 @@
 
     <ul>
         <li>Programming in Java - NPTEL</li>
-        <li>Coding Foundations - SoloLearn</li>
         <li>Oracle OCI Generative AI Professional</li>
-        <li>Artificial Intelligence Primer - Infosys Springboard</li>
-        <li>Principles of Generative AI - Infosys Springboard</li>
+        <li>Artificial Intelligence Primer</li>
+        <li>Principles of Generative AI</li>
     </ul>
 </section>
 
@@ -180,29 +161,32 @@
     <h2>Achievements</h2>
 
     <ul>
-        <li>NCC 'B' Certificate Holder</li>
-        <li>Completed AI Primer Certification</li>
-        <li>Completed Principles of Generative AI Certification</li>
+        <li>NCC B Certificate Holder</li>
+        <li>AI Primer Certified</li>
+        <li>Generative AI Certified</li>
     </ul>
 </section>
 
 <section id="contact">
     <h2>Contact Me</h2>
 
-    <p><strong>📍 Location:</strong> Kakinada, Andhra Pradesh</p>
-    <p><strong>📞 Phone:</strong> +91 93465 48356</p>
+    <p>📍 Kakinada, Andhra Pradesh</p>
 
     <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea rows="5" placeholder="Your Message"></textarea>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Message"></textarea>
         <button type="submit">Send Message</button>
     </form>
 </section>
 
+</main>
+
 <footer>
     <p>© 2026 Sunkara Naga Pavani | Portfolio</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
