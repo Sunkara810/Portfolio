@@ -3,188 +3,245 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sunkara Naga Pavani | Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<title>Pavani Portfolio</title>
+<link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
 
 <header>
-    <div class="header-content">
-        <h1>Sunkara Naga Pavani</h1>
-        <p>Computer Science & Engineering (Artificial Intelligence)</p>
 
-        <button class="theme-btn" onclick="toggleTheme()">
-            🌙 Theme
-        </button>
+<div class="logo">SNP</div>
 
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#internships">Internships</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certificates</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+<div class="header-right">
+<button id="themeBtn">🌙</button>
+<div class="menu-btn" id="menuBtn">☰</div>
+</div>
+
+<nav id="navMenu">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certifications">Certificates</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+</nav>
+
 </header>
 
-<section class="hero">
-    <h2>Hello, I'm Pavani 👋</h2>
-    <p>
-        Passionate AI student, web developer, and problem solver.
-        Interested in Artificial Intelligence, Full Stack Development,
-        and building innovative solutions.
-    </p>
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h3>Hello, It's Me</h3>
+
+<h1><span>Sunkara Naga Pavani</span></h1>
+
+<p class="subtitle">
+I'm a <span id="typing"></span>
+</p>
+
+<div class="buttons">
+
+<a href="pavaniResume.pdf" target="_blank">
+<button>Resume</button>
+</a>
+
+<button id="portfolioBtn">
+View Projects
+</button>
+
+<button id="hireBtn">
+Hire Me
+</button>
+
+</div>
+
+<div class="social-icons">
+
+<a href="https://www.linkedin.com/in/naga-pavani-sunkara-643995368">
+LinkedIn
+</a>
+
+<a href="https://github.com/Sunkara810">
+GitHub
+</a>
+
+<a href="https://leetcode.com/u/Sunkara_Naga_Pavani/">
+LeetCode
+</a>
+
+<a href="https://www.hackerrank.com/profile/23A31A43G3">
+HackerRank
+</a>
+
+</div>
+
+</div>
+
+<img src="pav.jpeg" alt="Pavani" class="profile">
+
 </section>
 
-<main>
-
 <section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am pursuing B.Tech in Computer Science and Engineering
-        (Artificial Intelligence) at Pragati Engineering College
-        with a CGPA of 9.07. I enjoy learning new technologies,
-        building projects and solving real-world problems.
-    </p>
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+I am a Final Year B.Tech student specializing in Artificial Intelligence.
+Passionate about Frontend Development, Software Testing, Python Programming
+and Data Structures & Algorithms.
+
+I enjoy building responsive web applications and solving real-world problems
+through technology.
+</p>
+
+</div>
+
 </section>
 
 <section id="education">
-    <h2>Education</h2>
 
-    <div class="card">
-        <h3>Pragati Engineering College</h3>
-        <p>B.Tech - Artificial Intelligence</p>
-        <p>2023 - 2027 | CGPA: 9.07</p>
-    </div>
+<h2>Education</h2>
 
-    <div class="card">
-        <h3>Pragati Junior College</h3>
-        <p>MPC</p>
-        <p>2021 - 2023 | 98.4%</p>
-    </div>
+<div class="card">
 
-    <div class="card">
-        <h3>Sri Bharathi Vidyanikethan</h3>
-        <p>Secondary Education</p>
-        <p>2020 - 2021 | 99.67%</p>
-    </div>
+<h3>Pragati Engineering College</h3>
+
+<p>B.Tech - Artificial Intelligence</p>
+
+<p>Graduation Year : 2027</p>
+
+<p>CGPA : 9.0</p>
+
+</div>
+
 </section>
 
 <section id="skills">
-    <h2>Skills</h2>
 
-    <div class="skills">
-        <span>Python</span>
-        <span>Java</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>MySQL</span>
-        <span>Git</span>
-        <span>VS Code</span>
-    </div>
-</section>
+<h2>Skills & Technologies</h2>
 
-<section id="internships">
-    <h2>Internships</h2>
+<div class="skill">
 
-    <div class="card">
-        <h3>1M1B - AICTE - Salesforce</h3>
-        <p>Green Skills Internship Program.</p>
-    </div>
+<p>Python</p>
+<div class="bar"><div class="fill python"></div></div>
 
-    <div class="card">
-        <h3>Google for Developers - EduSkills</h3>
-        <p>AI & ML Virtual Internship.</p>
-    </div>
+<p>Java</p>
+<div class="bar"><div class="fill java"></div></div>
+
+<p>HTML / CSS</p>
+<div class="bar"><div class="fill html"></div></div>
+
+<p>JavaScript</p>
+<div class="bar"><div class="fill js"></div></div>
+
+<p>MySQL</p>
+<div class="bar"><div class="fill mysql"></div></div>
+
+</div>
+
 </section>
 
 <section id="projects">
-    <h2>Projects</h2>
 
-    <div class="project-card">
-        <div class="project-header">
-            <h3>🌦 Weather App</h3>
-            <span class="badge">Web Development</span>
-        </div>
+<h2>Projects</h2>
 
-        <p>
-            Responsive weather application with real-time weather updates.
-        </p>
+<div class="project-container">
 
-        <div class="tech-stack">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>API</span>
-        </div>
-    </div>
+<a href="https://github.com/Sunkara810/Weatherapp" target="_blank">
+<div class="card">
+<img src="weather app.jpeg" class="project-img">
+<h3>Weather App</h3>
+<p>Weather Forecast Website using HTML CSS JavaScript.</p>
+</div>
+</a>
 
-    <div class="project-card">
-        <div class="project-header">
-            <h3>🚦 Smart Traffic Management</h3>
-            <span class="badge">Artificial Intelligence</span>
-        </div>
+<a href="https://github.com/Sunkara810/Smart-AI-Based-Traffic-Management-System" target="_blank">
+<div class="card">
+<img src="AI.jpeg" class="project-img">
+<h3>AI Traffic Management</h3>
+<p>AI based congestion reduction system.</p>
+</div>
+</a>
 
-        <p>
-            AI-based traffic monitoring and signal optimization system.
-        </p>
+<a href="https://github.com/Sunkara810/Portfolio" target="_blank">
+<div class="card">
+<img src="portfolio.jpeg" class="project-img">
+<h3>Portfolio Website</h3>
+<p>Responsive personal portfolio website.</p>
+</div>
+</a>
 
-        <div class="tech-stack">
-            <span>AI</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-        </div>
-    </div>
+</div>
+
 </section>
 
 <section id="certifications">
-    <h2>Certifications</h2>
 
-    <ul>
-        <li>Programming in Java - NPTEL</li>
-        <li>Oracle OCI Generative AI Professional</li>
-        <li>Artificial Intelligence Primer</li>
-        <li>Principles of Generative AI</li>
-    </ul>
+<h2>Certifications</h2>
+
+<div class="card">
+<ul>
+<li>Python Programming</li>
+<li>Web Development</li>
+<li>Software Testing</li>
+<li>Oracle Cloud Certification</li>
+<li>DSA Using Python</li>
+</ul>
+</div>
+
 </section>
 
 <section id="achievements">
-    <h2>Achievements</h2>
 
-    <ul>
-        <li>NCC B Certificate Holder</li>
-        <li>AI Primer Certified</li>
-        <li>Generative AI Certified</li>
-    </ul>
+<h2>Achievements</h2>
+
+<div class="card">
+<ul>
+<li>Completed NPTEL Java Course</li>
+<li>Built Multiple Web Applications</li>
+<li>Oracle Cloud Certified</li>
+<li>Active Coding Challenge Participant</li>
+</ul>
+</div>
+
 </section>
 
 <section id="contact">
-    <h2>Contact Me</h2>
 
-    <p>📍 Kakinada, Andhra Pradesh</p>
+<h2>Contact Me</h2>
 
-    <form>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <textarea rows="5" placeholder="Message"></textarea>
-        <button type="submit">Send Message</button>
-    </form>
+<div class="card">
+
+<p>Email : pavanisunkara52@gmail.com</p>
+
+<p>Phone : +91 9346548356</p>
+
+<p>Location : India</p>
+
+</div>
+
 </section>
 
-</main>
-
 <footer>
-    <p>© 2026 Sunkara Naga Pavani | Portfolio</p>
+
+<h3>Sunkara Naga Pavani</h3>
+
+<p>
+AI Student | Frontend Developer |
+Python Programmer | Software Tester
+</p>
+
+<p>© 2026 All Rights Reserved</p>
+
 </footer>
+
+<button id="topBtn">↑</button>
 
 <script src="script.js"></script>
 
